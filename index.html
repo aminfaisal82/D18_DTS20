@@ -12,24 +12,24 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	  <script>
-		  $(function() {
-			  var pull 		= $('#pull'); // Variabel tombol navigasi (akan muncul hanya pada perangkat mobile)
-				    menu 		= $('nav ul'); // Variabel menu
+  <script>
+    $(function () {
+      var pull = $('#pull'); // Variabel tombol navigasi (akan muncul hanya pada perangkat mobile)
+      menu = $('nav ul'); // Variabel menu
 
-			  $(pull).on('click', function(e) {
-          e.preventDefault();
-          menu.slideToggle();
-        });
-        
-        $(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 600 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		  });
-	  </script>
+      $(pull).on('click', function (e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+
+      $(window).resize(function () {
+        var w = $(window).width();
+        if (w > 600 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -82,10 +82,10 @@
         </div>
         <div class="card">
           <div class="avatar">
-            <img src="./assets/avatar.png" class="rounded">
+            <img src="./assets/foto_faishol.jpg" class="rounded">
           </div>
-          <p class="name">Nama</p>
-          <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”</p>
+          <p class="name">Faishol Muzaky</p>
+          <p>“Perkenalkan nama saya Faishol Muzaky dari Bengkulu, anggota kelompok D18.”</p>
         </div>
         <div class="card">
           <div class="avatar">
